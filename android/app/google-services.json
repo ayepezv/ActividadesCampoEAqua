@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388511804528",
+    "project_id": "actividades-eaqua",
+    "storage_bucket": "actividades-eaqua.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388511804528:android:1c80c63608e996f24b98b5",
+        "android_client_info": {
+          "package_name": "com.mycompany.actividadescampoeaqua"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf2QDpsfl1JMFnztJrxloEbYdkQHB-Znw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

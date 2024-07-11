@@ -1,0 +1,108 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "inspeccion",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "uid_user",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estado",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "red",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ruta",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "secuencia",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "inspeccion",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "uid_user",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "id_actividad",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "lecturas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_actividad",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Ordenar",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "toma_lecturas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_rutan",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estadoLectura",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "secuencian",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "toma_lecturas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_rutan",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "estadoLectura",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "secuencian",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "toma_lecturas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "id_rutan",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "secuencian",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ]
+}
